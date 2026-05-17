@@ -1,14 +1,26 @@
 body {
     background-image: url("../fondo.png");
     text-align:center;
+    font-family: 'Arvo', serif; /* Conectamos la tipografÃ­a solicitada */
 }
 
-header, section, aside, footer {
-    border: 1px solid black;
+header, section, footer {
+    border: 2px solid black;
     display: block;
 }
 
 .contenedor {
-    background-color: rgb(177, 174, 174);
+    background-color: rgb(124, 184, 124);
+    margin: 2em auto 1em auto;/* mÃĄrgenes simplificados */
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;    /* Evita que el padding rompa el ancho total */
+}
+
+main section h3 {color: rgb(47, 235, 10);
+}
+
+footer {background-color: rgb(170, 166, 166);
+    padding: 10px;             /* Espacio interno para el texto de contacto */
 }
 
