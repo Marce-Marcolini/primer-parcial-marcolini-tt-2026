@@ -1,0 +1,14 @@
+body {
+    background-image: url("../fondo.png");
+    text-align:center;
+}
+
+header, section, aside, footer {
+    border: 1px solid black;
+    display: block;
+}
+
+.contenedor {
+    background-color: rgb(177, 174, 174);
+}
+
